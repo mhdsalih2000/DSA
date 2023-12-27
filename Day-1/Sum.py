@@ -8,7 +8,6 @@ class sumja:
             for j in range(len(self.numbers)):
                 if j >0:
                     if self.numbers[i]+self.numbers[j] ==self.target:
-                        print("working")
                         print('-----------')
                         return i,j
             
